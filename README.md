@@ -65,18 +65,18 @@ Aqui podremos listar y administrar nuestras categorias, crear, editar o eliminar
 - get : http://localhost:8080/categorie
 
 <div align="center">
-    <img src="src/images/WhatsApp Image 2022-12-12 at 12.12.41 AM.jpeg" width="400px"</img> 
+    <img src="src/images/lista-categorias.jpeg" width="400px"</img> 
 </div>
 podremos crear las categorias necesarias para crear nuestros post
 
 - post: http://localhost:8080/create-categories
 <div align="center">
-    <img src="src/images/WhatsApp Image 2022-12-12 at 12.11.53 AM.jpeg" width="400px"</img> 
+    <img src="src/images/crearC.jpeg" width="400px"</img> 
 </div>
  al editar obtendremos por id la info almacenada en la db
 - put: http://localhost:8080/edit-categories/:id
 <div align="center">
-    <img src="src/images/WhatsApp Image 2022-12-12 at 12.13.21 AM.jpeg" width="400px"</img> 
+    <img src="src/images/editar-categoria.jpeg" width="400px"</img> 
 </div>
 
 ### CRUD para Posts
@@ -92,7 +92,7 @@ en este apartado podemos listar los posts creados y arministrarlos,crearlos, edi
 aqui podemos crear un post y podemos seleccionar una categoria que creamos previamente, asignarle un estado y demas
 
 <div align="center">
-    <img src="src/images/WhatsApp Image 2022-12-12 at 12.18.29 AM.jpeg" width="400px"</img> 
+    <img src="src/images/crear-post.jpeg" width="400px"</img> 
 </div>
  
 - put: http://localhost:8080/edit-post/:id
