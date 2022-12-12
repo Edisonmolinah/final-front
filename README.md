@@ -20,6 +20,10 @@ Se debe correr el Api de laravel del siguiente repositorio:
 
 - https://github.com/Edisonmolinah/final-back
 
+- recuerde realizar las configuraciones alli descritas
+- es muy importante crear la base de datos, aisgnar los puertos indicados
+- recuerde crear los roles mencionados
+
 ## una vez se tenga arriba la api del paso anterior Correr el proyecto vue
 
 - npm run serve
