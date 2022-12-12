@@ -39,7 +39,7 @@ al registrarse obtendremos un token
 
 
 <div align="center">
-    <img src="src/images/WhatsApp Image 2022-12-12 at 12.07.55 AM.jpeg" width="400px"</img> 
+    <img src="src/images/singup.jpeg" width="400px"</img> 
 </div>
 
 al registrarse obtendremos un token 
@@ -49,15 +49,13 @@ al registrarse obtendremos un token
 
 - post: http://localhost:8080/login
 <div align="center">
-    <img src="src/images/WhatsApp Image 2022-12-12 at 12.05.11 AM (1).jpeg
-" width="400px"</img> 
+    <img src="src/images/login.jpeg" width="400px"</img> 
 </div>
 
 al hacer login obtendremos nuevamente el token
 
 <div align="center">
-    <img src="/Users/muy/post_front/src/images/WhatsApp Image 2022-12-12 at 12.31.34 AM.jpeg
-" width="400px"</img> 
+    <img src="src/images/login-token.jpeg" width="400px"</img> 
 </div>
 
 
@@ -67,21 +65,18 @@ Aqui podremos listar y administrar nuestras categorias, crear, editar o eliminar
 - get : http://localhost:8080/categorie
 
 <div align="center">
-    <img src="src/images/WhatsApp Image 2022-12-12 at 12.12.41 AM.jpeg
-" width="400px"</img> 
+    <img src="src/images/WhatsApp Image 2022-12-12 at 12.12.41 AM.jpeg" width="400px"</img> 
 </div>
 podremos crear las categorias necesarias para crear nuestros post
 
 - post: http://localhost:8080/create-categories
 <div align="center">
-    <img src="src/images/WhatsApp Image 2022-12-12 at 12.11.53 AM.jpeg
-" width="400px"</img> 
+    <img src="src/images/WhatsApp Image 2022-12-12 at 12.11.53 AM.jpeg" width="400px"</img> 
 </div>
  al editar obtendremos por id la info almacenada en la db
 - put: http://localhost:8080/edit-categories/:id
 <div align="center">
-    <img src="src/images/WhatsApp Image 2022-12-12 at 12.13.21 AM.jpeg
-" width="400px"</img> 
+    <img src="src/images/WhatsApp Image 2022-12-12 at 12.13.21 AM.jpeg" width="400px"</img> 
 </div>
 
 ### CRUD para Posts
@@ -90,16 +85,14 @@ en este apartado podemos listar los posts creados y arministrarlos,crearlos, edi
      
 - get: http://localhost:8080/posts 
 <div align="center">
-    <img src="src/images/WhatsApp Image 2022-12-12 at 12.18.59 AM.jpeg
-" width="400px"</img> 
+    <img src="src/images/lista-post.jpeg" width="400px"</img> 
 </div>
   
 - post: http://localhost:8080/create-post
 aqui podemos crear un post y podemos seleccionar una categoria que creamos previamente, asignarle un estado y demas
 
 <div align="center">
-    <img src="src/images/WhatsApp Image 2022-12-12 at 12.18.29 AM.jpeg
-" width="400px"</img> 
+    <img src="src/images/WhatsApp Image 2022-12-12 at 12.18.29 AM.jpeg" width="400px"</img> 
 </div>
  
 - put: http://localhost:8080/edit-post/:id
@@ -109,7 +102,6 @@ aqui podemos crear un post y podemos seleccionar una categoria que creamos previ
 
 podemos ver que el estado del post sobre peliculas de accion ahora es Publicado y anteriormente estaba como No Publicado
 <div align="center">
-    <img src="src/images/WhatsApp Image 2022-12-12 at 12.19.49 AM.jpeg
-" width="400px"</img> 
+    <img src="src/images/lista-post2.jpeg" width="400px"</img> 
 </div>
     
